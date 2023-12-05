@@ -1,6 +1,7 @@
 # Ben's C++ Linear Regression Library
 
 ## Completed
+[X] - finish local environment setup
 
 ## Todo
-[ ] - finish local environment setup
+[ ] - figure out how to use gdb
