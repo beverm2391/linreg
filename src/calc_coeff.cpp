@@ -7,7 +7,13 @@
 
 // This function calculates the coefficients of a linear regression model. y = B_1 * x + B_0
 template <typename T, typename M> // template declaration, using T and M as template parameters which will be replaced by actual types when the function is called
-void calcCoeff(vector<T> indep_var, vector<T> dep_var, M &B_1, M &B_0) // void means no return value
+void calcCoeff(std::vector<T> indep_var, std::vector<T> dep_var, M &B_1, M &B_0) // void means no return value
+// the vectors are dynamic arrays, which can be resized at runtime
+// the & means the vars are passed by reference, meaning the function can modify the original variables
 {
+    // calculate the mean of the independent and dependent variables
+    M X_mean = alg_math::mean(indep_var);
+    M Y_mean = alg_math::mean(dep_var);
+    
     return 0;
 };

@@ -2,7 +2,10 @@
 
 ## Completed
 [X] - finish local environment setup
+[X] - make a basic linreg solver
 
 ## Todo
-[ ] - figure out how to use gdb
-[ ] - finish following [this](https://medium.com/ml2b/linear-regression-implementation-in-c-acdfb621e56) tutorial
+[ ] - add predict method
+[ ] - add test cases
+[ ] - load data from .csv
+[ ] - data visualization
