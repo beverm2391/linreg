@@ -1,6 +1,9 @@
-#include <iostream>
+#ifndef LINREG_H // LINREG_H is a macro that is defined if the header has not been included yet
+#define LINREG_H // this is an include guard, it prevents the header from being included more than once
+
 #include <vector>
-#include <numeric> // for std::accumulate
+#include <numeric>
+#include <iostream>
 
 class LinearRegression
 {
@@ -66,19 +69,4 @@ private:
     }
 };
 
-int main()
-{
-    LinearRegression lr; // create a LinearRegression object
-
-    lr.addDataPoint(1, 2); // add data points
-    lr.addDataPoint(2, 3);
-    lr.addDataPoint(3, 5);
-
-    lr.computeRegression(); // compute the regression
-    lr.displayResults();    // display the results
-
-    // lets predict something
-    std::cout << "Predicted value for x = 4: " << lr.predict(4) << std::endl;
-
-    return 0;
-}
+#endif // LINREG_H

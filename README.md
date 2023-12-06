@@ -3,9 +3,17 @@
 ## Completed
 [X] - finish local environment setup
 [X] - make a basic linreg solver
+[X] - add predict method
 
 ## Todo
-[ ] - add predict method
 [ ] - add test cases
-[ ] - load data from .csv
-[ ] - data visualization
+    [ ] - identify test scenarios
+    [ ] - write tests
+    [ ] - automate them
+[ ] - load data from .csv or some external source
+[ ] - data visualization?
+[ ] - find some way to benchmark performance
+    [ ] - work on a large dataset
+    [ ] - compare to other libraries
+    [ ] - optimize
+[ ] - implement some basic vector operations efficiently (new project?)
