@@ -6,10 +6,14 @@
 [X] - add predict method
 
 ## Todo
+[ ] - figure out how Makefiles work
+    [ ] - get it making
 [ ] - add test cases
+    [ ] - add gtest
+        [ ] - get gtest configured with the make file
+    [ ] - write tests
     [ ] - identify test scenarios
     [ ] - write tests
-    [ ] - automate them
 [ ] - load data from .csv or some external source
 [ ] - data visualization?
 [ ] - find some way to benchmark performance
